@@ -1,0 +1,19 @@
+# Ignorar archivos y directorios generados por Angular CLI
+/node_modules
+/dist
+/e2e
+/docs
+# Ignorar archivos de desarrollo y configuración local
+# src/environments/*.ts
+.env
+.env.*
+
+# Ignorar archivos y directorios específicos de control de versiones
+.git/
+.gitignore
+
+# Ignorar otros archivos y directorios innecesarios
+.editorconfig
+README.md
+yarn.lock
+*.zip

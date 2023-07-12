@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+##crear la imagen de docker
+docker build --no-cache --progress=plain -t nombreImage-app .
+##Iniciar o ejecutar la imagen creada
+docker run -d -it -p 80:80/tcp ang-app
+
+#referencia https://medium.com/@leytor/como-dockerizar-una-aplicaci%C3%B3n-en-angular-v14-a0f96e489cf8
